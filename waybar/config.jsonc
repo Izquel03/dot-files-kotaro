@@ -1,0 +1,53 @@
+
+{
+        "layer": "top",
+        "position": "buttom",
+        "spacing": 4,
+    
+
+    "modules-left": 
+    [
+        "Power/menu",
+        "Running/window"
+    ],
+
+    "modules-center": 
+    [
+        "Sway/Workspace",
+        "Sway/Date-Time",
+        "Notification"
+    ],
+
+    "modules-right":
+    [
+        "Pc-info",
+        "Network",
+        "Bluetooth"
+    ],
+
+    "Power/menu":{
+        "format": "(Logo de Arch linux)",
+            "on-click": "(Ejecuta una config de Wofi)"
+    },
+
+    "Running/window": { //Barra que indica que se esta ejecuntando segun la ventana en el que esta
+
+    },
+
+    "Sway/Workspace": { //Barra donde muestra los espacios de trabajo y en cual esta actualmente
+
+    },
+
+    "Sway/Data-time": { //Ubicada debajo de los worksapce muestra la hora y al seleccionarse lanza un calendario
+
+    },
+
+    "Notification": { //Ubicacion desconocida aun (con posble cambio al module right)
+
+    },
+
+    "Pc-info": { //Menu el cual indica (Temperatura, Ram, Daemon-profile)
+
+    }
+
+}
